@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> My Gallery</h1>
+  </header>
+  <main class="gallery-container">
+    <h2>Explore Our Collection</h2>
+
+<input type="radio" name="filter" id="all" checked>
+<input type="radio" name="filter" id="landscape" checked>
+<input type="radio" name="filter" id="portraits" checked>
+<input type="radio" name="filter" id="architecture" checked>
+
+<div class="filter-buttons">
+<label for="all"> All Images</label>
+<label for="landscapes">Landscapes</label>
+<label for="portraites">Portraits</label>
+<label for="architectures">Architecture</label>
+</div>
+<div class="gallery">
+
+  <article class = "card" data-category="landscape">
+      <div class="image-wrapper">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" alt="mountain valley">
+        
+        <div class="overlay"><p>A quiet mountain valley.</p></div>
+      </div>
+
+      <div class="card-info">
+
+        <h3>Mountain Valley</h3>
+
+        <span class="category">Landscapes</span>
+      </div>
+
+    </article>
+
+    <article class = "card" data-category="landscape">
+      <div class="image-wrapper">
+        <img src ="https://static.vecteezy.com/system/resources/thumbnails/052/946/170/small/calm-lake-surrounded-by-lush-cedar-forest-reflecting-serene-landscape-tranquil-waters-and-vibrant-greenery-create-peaceful-atmosphere-photo.jpg" alt="Beautiful lake">
+
+        <div class="overlay"><p>A calm lake surrounded by a lush forest.</p></div>
+      </div>
+
+      <div class="card-info">
+        <h3>Calm Lake</h3>
+
+        <span class="category">Landscapes</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="landscape">
+      
+      <div class="image-wrapper">
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdXH9ia8DiJrqkXNsUPnhesTt9ALbAaDn_zxXfrVDER8xoD2I4HK7yLrhs&s=10" alt="Green forest">
+
+        <div class="overlay"><p>A tranquil forest scene.</p></div>
+      </div>
+
+      <div class="card-info">
+        <h3>Nature Escapes</h3>
+        <span class="category">Landscapes</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="landscape">
+
+      <div class="image-wrapper">
+        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGfETtH6_7YlrQ9rIN0RTJptNristVdmkbQrI3k7UOWoJU1JUN_hh63bJ&s=10" alt="Snowy mountains">
+        
+        <div class="overlay"><p>A beautiful view of snow-covered mountains</p></div>
+      </div>
+
+      <div class="card-info">
+        <h3>Snowy Mountains</h3>
+        <span class="category">Landscapes</span>
+      </div>
+    </article>
+
+
+    <article class = "card" data-category="portraits">
+      <div class="image-wrapper">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx_kkglveQQRZ2JQh6z4QmNgfboB2giUhcbeWzc5Kaqg&s=10"alt="woman portrait">
+
+        <div class="overlay"><p>A close up portrait showing joy.</p></div>
+      </div>
+      
+      <div class="card-info">
+        <h3>Happiness</h3>
+        <span class="category">Portraits</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="portraits">
+      <div class="image-wrapper">
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvb-JnqvS7QkVZNKcerKgnStv-5sHqBIPVxVpEc8OXYqaWQU3mHEaF3-0&s=10" alt="Portrait">
+        <div class="overlay"><p>A beautiful portrait capturing natural beauty </caption>.</p></div>
+      </div>
+
+      <div class="card-info">
+        <h3>Natural Beauty</h3>
+        <span class="category">Portraits</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="portraits">
+      <div class="image-wrapper">
+        <img src ="https://images.unsplash.com/photo-1773848419719-eff31fedbe82?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Portrait">
+        <div class="overlay"><p>Portrait capturing cosmetic beauty.</p></div>
+      </div>
+      <div class="card-info">
+        <h3>Cosmetic Beauty</h3>
+        <span class="category">Portraits</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="portraits">
+      <div class="image-wrapper">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIoqgWHzHzmu7gIbvXAZduehabT0FO9HVE5ttLvmv6DYTv73IjxrXqc8Rt&s=10" alt="Portrait">
+        <div class="overlay"><p>A portrait capturing sadness.</p></div>
+      </div>
+      <div class="card-info">
+        <h3>Sadness</h3>
+        <span class="category">Portraits</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="architecture">
+      <div class="image-wrapper">
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlBzGZj8IXspdiPSlFx9VGkq-7AKCR0MKbSG1gOMl1dM9-u9QoPL4K_EvM&s=10" alt="Modern building">
+        <div class="overlay"><p>Modern building with unique design.</p></div>
+      </div>
+      <div class="card-info">
+        <h3>Modern Design</h3>
+        <span class="category">Architecture</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="architecture">
+      <div class="image-wrapper">
+
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX8ZXKofOjOTTalqG9AQKNfYqlNqk5XWjthUoutOa7eA&s=600" alt="Building structure">
+        <div class="overlay"><p>Beautiful architectural structures in the city.</p></div>
+      </div>
+      <div class="card-info">
+        <h3>City Tower</h3>
+        <span class="category">Architecture</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="architecture">
+      <div class="image-wrapper">
+
+        <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY56EA-dbzzq2vgcIWxiCBlVYl5E2JQH7aS4JopWmqX7tn3AmvtDFNB5SV&s=600" alt="Modern office">
+        <div class="overlay"><p>Creative and modern office architecture.</p></div>
+      </div>
+      <div class="card-info">
+        <h3>Urban Beauty</h3>
+        <span class="category">Architecture</span>
+      </div>
+    </article>
+
+    <article class = "card" data-category="architecture">
+      <div class="image-wrapper">
+        <img src ="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600" alt="Tall building">
+      
+        <div class="overlay"><p>Beautiful tall building designs.</p></div>
+      </div>
+      <div class="card-info">
+        <h3>Building Designs</h3>
+        <span class="category">Architecture</span>
+      </div>
+    </article>
+  
+  </div>
+
+</main>
+  
+<footer><p>&copy; 2026 My Image Gallery. All Rights Reserved.</p></footer>
+
+</body>
+
+</html>
